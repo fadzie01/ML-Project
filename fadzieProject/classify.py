@@ -12,7 +12,7 @@ def classifyImages():
     model = VGG16()
     from keras.applications.vgg16 import decode_predictions
     classify = []
-    frames = [ join('.\\frames', f) for f in listdir('.\\frames') if isfile(join('.\\frames', f)) ]
+    frames = [ join('https://github.com/fadzie01/ML-Project/tree/main/fadzieProject/frames', f) for f in listdir('https://github.com/fadzie01/ML-Project/tree/main/fadzieProject/frames') if isfile(join('https://github.com/fadzie01/ML-Project/tree/main/fadzieProject/frames', f)) ]
     for i in range(len(frames)):    
         image = load_img(frames[i], target_size=(224, 224)) 
         image = img_to_array(image)
