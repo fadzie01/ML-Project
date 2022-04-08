@@ -20,7 +20,7 @@ def upload_video(file):
         
         mace = io.BytesIO(file.read())   
         
-        temporary_location = ".datasimple5.mp4"
+        temporary_location = "./datasimple5.mp4"
         
         with open(temporary_location, 'wb') as out:  
             
