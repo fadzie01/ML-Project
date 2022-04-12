@@ -1,0 +1,9 @@
+link of video, of the model running on local host...
+
+https://drive.google.com/drive/folders/1lnw65nlGG1VENAQLM5pFq2QPzzx0AZD1
+
+
+link of model deployed on streamlit...
+
+
+https://share.streamlit.io/fadzie01/ml-project/main/fadzieProject/main.py
